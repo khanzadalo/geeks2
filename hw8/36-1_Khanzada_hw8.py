@@ -81,6 +81,10 @@ def insert_students(conn):
 
 
 
+
+
+
+
 def get_cities(conn):
     cursor = conn.cursor()
     cursor.execute("SELECT title FROM cities")
